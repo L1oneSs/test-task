@@ -1,0 +1,35 @@
+.notFound {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__container {
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  &__button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #36d7b7;
+    color: white;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #36d7b7;
+      opacity: 60%;
+    }
+  }
+}
