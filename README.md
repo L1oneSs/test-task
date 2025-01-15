@@ -23,6 +23,8 @@ bun dev
 
 ## Описание
 
+Задание №2 -> Папка task_EventEmitter
+
 Основная страница - page.tsx
 Стилизация - main.module.scss
 
